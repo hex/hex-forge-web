@@ -33,7 +33,7 @@
                     <li>Mesocycle and training program configurations</li>
                     <li>Personal feedback on workouts (soreness, pump, difficulty)</li>
                 </ul>
-                <p><strong>Storage:</strong> All workout data is stored locally on your device using Apple's SwiftData framework. We do not have access to this data.</p>
+                <p><strong>Storage:</strong> Workout data is stored on your device using Apple's SwiftData framework and automatically synced to your personal iCloud account via Apple's CloudKit service. This enables your data to sync across all your devices signed into the same Apple ID. We do not have access to this data—it is stored in your private iCloud container.</p>
 
                 <h4>HealthKit Data (Optional)</h4>
                 <p>If you grant permission, hex-forge may read:</p>
@@ -89,6 +89,7 @@
                 <h3>Data Sharing</h3>
                 <p>We do not sell or share your personal data with third parties. External data transmission only occurs for:</p>
                 <ul>
+                    <li><strong>iCloud:</strong> Workout data syncs to your private iCloud container for cross-device access</li>
                     <li><strong>YouTube:</strong> Exercise name searches are sent to YouTube's servers; video playback connects your device to YouTube</li>
                     <li><strong>Game Center:</strong> If enabled, leaderboard scores are sent to Apple's Game Center service</li>
                     <li><strong>HealthKit:</strong> Read-only access to data you explicitly authorize</li>
@@ -98,10 +99,10 @@
             <section>
                 <h3>Data Storage and Security</h3>
                 <ul>
-                    <li>All workout data is stored locally on your device</li>
-                    <li>Data is protected by iOS device encryption</li>
-                    <li>We do not maintain servers or databases containing user data</li>
-                    <li>Uninstalling the app removes all locally stored data</li>
+                    <li>Workout data is stored on your device and synced to your private iCloud account</li>
+                    <li>Data is protected by iOS device encryption and iCloud encryption</li>
+                    <li>We do not have access to your iCloud data—only you can access it via your Apple ID</li>
+                    <li>We do not maintain our own servers or databases containing user data</li>
                 </ul>
             </section>
 
@@ -121,10 +122,17 @@
                     <li>hex-forge Settings &gt; Game Center toggle</li>
                 </ul>
 
+                <h4>iCloud Sync</h4>
+                <p>iCloud sync is automatic when signed into iCloud. To disable:</p>
+                <ul>
+                    <li>iOS Settings &gt; [Your Name] &gt; iCloud &gt; Apps Using iCloud &gt; hex-forge toggle</li>
+                </ul>
+
                 <h4>Data Deletion</h4>
                 <p>To delete all hex-forge data:</p>
                 <ol>
-                    <li>Uninstall the app from your device</li>
+                    <li>Uninstall the app from your device (removes local data)</li>
+                    <li>To delete iCloud data: iOS Settings &gt; [Your Name] &gt; iCloud &gt; Manage Storage &gt; hex-forge &gt; Delete Data</li>
                     <li>If you used Game Center, your leaderboard scores remain on Apple's servers (managed by Apple's policies)</li>
                 </ol>
             </section>
@@ -153,7 +161,7 @@
             <section>
                 <h3>Changelog</h3>
                 <ul>
-                    <li><strong>December 14, 2025:</strong> Added Third-Party Services section documenting YouTube integration for exercise videos. Updated Data Sharing section.</li>
+                    <li><strong>December 14, 2025:</strong> Added iCloud sync disclosure, Third-Party Services section for YouTube integration. Updated Data Sharing and Data Storage sections.</li>
                     <li><strong>December 7, 2025:</strong> Initial privacy policy.</li>
                 </ul>
             </section>
