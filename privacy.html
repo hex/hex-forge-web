@@ -16,7 +16,7 @@
     <main>
         <div class="content">
             <h2>Privacy Policy</h2>
-            <p class="updated">Last Updated: December 14, 2025</p>
+            <p class="updated">Last Updated: December 19, 2025</p>
 
             <section>
                 <h3>Overview</h3>
@@ -73,15 +73,43 @@
                     <li>Search results are cached locally on your device to minimize API usage</li>
                 </ul>
                 <p>For more information about how YouTube handles data, see <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>.</p>
+
+                <h4>Firebase (Crashlytics &amp; Analytics)</h4>
+                <p>hex-forge uses Google Firebase services to improve app stability and understand how features are used:</p>
+
+                <p><strong>Firebase Crashlytics</strong> collects crash reports when the app encounters errors:</p>
+                <ul>
+                    <li>Crash logs and stack traces</li>
+                    <li>Device model and operating system version</li>
+                    <li>App state at time of crash (memory usage, app version)</li>
+                    <li>A random installation identifier (not linked to your identity)</li>
+                </ul>
+
+                <p><strong>Firebase Analytics</strong> collects aggregated usage data:</p>
+                <ul>
+                    <li>App opens and session duration</li>
+                    <li>Feature usage (which screens are viewed)</li>
+                    <li>Device type and OS version</li>
+                    <li>Approximate location (country/region from IP address)</li>
+                </ul>
+
+                <p><strong>What Firebase does NOT collect:</strong></p>
+                <ul>
+                    <li>Your workout data, exercises, or personal records</li>
+                    <li>Your name, email, or any personal identifiers</li>
+                    <li>Advertising identifiers (IDFA)</li>
+                </ul>
+
+                <p>This data helps us identify and fix crashes, and understand which features are most useful. Data is processed by Google under their <a href="https://firebase.google.com/support/privacy">Firebase Privacy Policy</a>.</p>
             </section>
 
             <section>
                 <h3>Data We Do NOT Collect</h3>
                 <ul>
                     <li>Personal identification information (name, email, phone)</li>
-                    <li>Location data</li>
-                    <li>Usage analytics or telemetry</li>
-                    <li>Advertising identifiers</li>
+                    <li>Precise location data</li>
+                    <li>Advertising identifiers (IDFA)</li>
+                    <li>Cross-app tracking data</li>
                 </ul>
             </section>
 
@@ -91,6 +119,7 @@
                 <ul>
                     <li><strong>iCloud:</strong> Workout data syncs to your private iCloud container for cross-device access</li>
                     <li><strong>YouTube:</strong> Exercise name searches are sent to YouTube's servers; video playback connects your device to YouTube</li>
+                    <li><strong>Firebase:</strong> Crash reports and aggregated usage analytics are sent to Google's Firebase servers</li>
                     <li><strong>Game Center:</strong> If enabled, leaderboard scores are sent to Apple's Game Center service</li>
                     <li><strong>HealthKit:</strong> Read-only access to data you explicitly authorize</li>
                 </ul>
@@ -161,6 +190,7 @@
             <section>
                 <h3>Changelog</h3>
                 <ul>
+                    <li><strong>December 19, 2025:</strong> Added Firebase Crashlytics and Analytics disclosure. Updated Data Sharing section.</li>
                     <li><strong>December 14, 2025:</strong> Added iCloud sync disclosure, Third-Party Services section for YouTube integration. Updated Data Sharing and Data Storage sections.</li>
                     <li><strong>December 7, 2025:</strong> Initial privacy policy.</li>
                 </ul>
