@@ -123,6 +123,20 @@ main {
     box-shadow: 0 6px 30px rgba(212, 175, 55, 0.5);
 }
 
+.app-store-badge {
+    display: inline-block;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.app-store-badge:hover {
+    transform: translateY(-2px);
+    opacity: 0.9;
+}
+
+.app-store-badge img {
+    display: block;
+}
+
 .links {
     text-align: center;
     padding: 2rem 0;
