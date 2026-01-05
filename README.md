@@ -8,7 +8,6 @@ Landing page and privacy policy for the hex-forge iOS app.
 
 - `/` - Landing page with app icon and App Store link
 - `/privacy.html` - Privacy policy (required for App Store)
-- `/beta-terms.html` - Beta testing license agreement
 
 ## Design
 
@@ -66,7 +65,6 @@ git push
 hex-forge-web/
 ├── index.html           # Landing page
 ├── privacy.html         # Privacy policy
-├── beta-terms.html      # Beta testing agreement
 ├── style.css            # Styles
 ├── icon.png             # App icon (1024x1024)
 ├── app-store-badge.svg  # Official App Store badge
