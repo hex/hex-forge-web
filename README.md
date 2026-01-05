@@ -2,7 +2,9 @@
 
 Landing page and privacy policy for the hex-forge iOS app.
 
-**Live:** https://hex-forge.hexul.com
+**Website:** https://hex-forge.hexul.com
+
+**App Store:** https://apps.apple.com/app/hex-forge/id6756227996
 
 ## Pages
 
